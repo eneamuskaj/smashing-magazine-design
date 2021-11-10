@@ -1,0 +1,55 @@
+.container > * {
+  border: 1px solid red;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 4fr 3fr 3fr 3fr 1fr;
+  grid-template-areas:
+    "navbar navbar navbar"
+    "main main sidebar"
+    "section1 section1 section1"
+    "section2 section2 section2"
+    "section3 section3 section3"
+    "footer footer footer";
+}
+
+.navbar {
+  grid-area: navbar;
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 10%;
+}
+
+.main {
+  grid-area: main;
+  margin: 2% 10%;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  margin: 2% 10%;
+}
+
+.section1 {
+  grid-area: section1;
+  display: flex;
+  margin: 2% 10%;
+}
+
+.section2 {
+  grid-area: section2;
+  display: flex;
+  margin: 2% 10%;
+}
+
+.section3 {
+  grid-area: section3;
+  display: flex;
+  margin: 2% 10%;
+}
+.footer {
+  grid-area: footer;
+  margin: 2% 10%;
+}
