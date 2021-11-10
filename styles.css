@@ -1,3 +1,13 @@
+p {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+h1,
+h2 {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 900;
+}
+
 .container > * {
   border: 1px solid red;
 }
@@ -16,6 +26,7 @@
 }
 
 .navbar {
+  background-color: rgb(56, 71, 30);
   grid-area: navbar;
   display: flex;
   justify-content: space-between;
@@ -23,33 +34,39 @@
 }
 
 .main {
+  background-color: rgb(84, 107, 43);
   grid-area: main;
   margin: 2% 10%;
 }
 
 .sidebar {
+  background-color: rgb(101, 129, 53);
   grid-area: sidebar;
   margin: 2% 10%;
 }
 
 .section1 {
+  background-color: rgb(139, 179, 71);
   grid-area: section1;
   display: flex;
   margin: 2% 10%;
 }
 
 .section2 {
+  background-color: rgb(139, 179, 71);
   grid-area: section2;
   display: flex;
   margin: 2% 10%;
 }
 
 .section3 {
+  background-color: rgb(139, 179, 71);
   grid-area: section3;
   display: flex;
   margin: 2% 10%;
 }
 .footer {
+  background-color: rgb(56, 71, 30);
   grid-area: footer;
   margin: 2% 10%;
 }
